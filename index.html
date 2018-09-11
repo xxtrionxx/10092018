@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Yazole</title>
+	<link href="https://fonts.googleapis.com/css?family=Cherry+Swash&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Marmelad|Montserrat+Alternates:500" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">	
+	<link rel="stylesheet" type="text/css" href="engine_slider/style.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="engine_slider/jquery.js"></script>	
+	<script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//Гамбургер
+			 // $('.menuToggle').on('click', function() {
+    //    $('.navmenu').slideToggle(300, function(){
+    //         if( $(this).css('display') === "none"){
+    //             $(this).removeAttr('style');
+    //         }
+    //    });
+
+    // });
+				// Плавный скролл по якорям
+	$('a[href^="#"]').click(function () { 
+     elementClick = $(this).attr("href");
+    destination = $(elementClick).offset().top;
+    {
+    $('html,body').animate( { scrollTop: destination }, 1800);
+    } 
+    return false;﻿
+		   });
+		});
+	</script>
+
+</head>
+<body>
+	<header id="top">
+		<nav id="navigation">
+	<a href="#top"><p class="logo">Yazole</p></a>
+	
+		<ul class="navmenu ">
+			<li><a href="#top">Главная</a></li>
+			
+			<li><a href="#about">О Часах</a></li>
+			
+			<li><a href="#history">История создания</a></li>
+			
+			<li><a href="#contact">Заказать часы</a></li>
+		</ul>
+
+		</nav>
+		</header>
+
+
+
+		<!-- СЛАЙДЕР -->
+<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="../img/slider/five.jpg" alt="Сделай правильный выбор" title="Сделый правильный выбор" id="wows1_0"/></li>
+		<li><img src="../img/slider/four.jpg" alt="Часы на каждый день" title="Часы на каждый день" id="wows1_1"/></li>
+		<li><img src="../img/slider/one.jpg" alt="Соответствуй своему окружению" title="Соответствуй своему окружению" id="wows1_2"/></li>
+		<li><img src="../img/slider/six.jpg" alt="html5 slideshow" title="Знай где ты и кто ты" id="wows1_3"/></li>
+		<li><img src="../img/slider/three.jpg" alt="Будь многофункциональным" title="Будь многофункциональным" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Сделый правильный выбор"><span><img src="img/tooltips/five.jpg" alt="Сделый правильный выбор"/>1</span></a>
+		<a href="#" title="Часы на каждый день"><span><img src="img/tooltips/four.jpg" alt="Часы на каждый день"/>2</span></a>
+		<a href="#" title="Соответствуй своему окружению"><span><img src="img/tooltips/one.jpg" alt="Соответствуй своему окружению"/>3</span></a>
+		<a href="#" title="Знай где ты и кто ты"><span><img src="img/tooltips/six.jpg" alt="Знай где ты и кто ты"/>4</span></a>
+		<a href="#" title="Будь многофункциональным"><span><img src="img/tooltips/three.jpg" alt="Будь многофункциональным"/>5</span></a>
+	</div></div>
+	<div class="ws_shadow"></div>
+	</div>	
+<!-- /СЛАЙДЕР -->
+
+
+	
+<main class="container" id="history">
+	<h1>История Yazole</h1>
+	<div class="title_text">
+		<p>Мы создали Yazole с целью создать захватывающие часы, которые завершат любой Ваш наряд и стиль.</p>
+	<p>Компания Yazole  была основана в конце 2009 года, первоначально предлагая продажу нескольких пользовательских часов. На протяжении многих лет мы очень много работали над дизайном часов, делая их лучше и лучше. Этим мы достигли более 20.000 довольных клиентов.</p> 
+	<p>C тех пор мы очень усердно работали над созданием и дизайном бюджетных часов, которые сможет позволить себе каждый, при этом не жертвуя качеством, которым известен Yazole!</p>
+	<p>Наша цель - предоставить нашим клиентам часы на любой вкус, приятный шоппинг, и  при этом поддерживать отличные цены и образцовое обслуживание клиентов. Мы стремимся создать абсолютно новый опыт работы с клиентами!</p>
+	<p>За эти годы мы заслужили признание как честные и надежные наручные часы. Во что бы то ни стало, пожалуйста, изучите наш   бренд Yazole! Мы уверены, что вы придете к тому же выводу, что и тысячи других довольных клиентов.</p>
+	<p>Мы будем рады приветствовать вас в семье клиентов Yazole.</p></div>	
+	</main>
+	
+	<article class='container'>
+		<h1 id="about">Список коллекции</h1>
+		<div class="list_clock">		
+			<img src="img/clock11.jpg" alt="">
+			<div class="list_text">
+				<h2>Серия YAZOLE AVIATION</h2>
+				<p class="title_text">Серия Yazole Aviation или Yazole 332 была нашим бестселлером с момента первого запуска Yazole! Мы уверены, что знаем почему. Из-за его гладкого и стильного внешнего вида! Это часы, которые никогда не могут выйти из моды. Так что, если вы ходите по клубам или идете не свидание, вы оставите о себе хорошее впечатление!</p>
+			<button><a href="#contact">Заказать часы</a></button>
+		</div>
+	</div>
+		<div class="list_clock">
+			<div class="list_text">
+				<h2>Серия YAZOLE MINIMALIST</h2>
+				<p class="title_text">Серия минималистов Yazole или Yazole 320 - это наши самые простые часы, которые мы когда-либо разрабатывали. Это все, что вам нужно в часах, Без всякого беспорядка и лишних деталей, которые вы никогда не используете. Как должно быть, так или иначе!</p>
+			<button><a href="#contact">Заказать часы</a></button>	
+			</div>	
+			<img src="img/clock21.jpg" alt="">
+		</div>
+		<div class="list_clock">	
+			<img src="img/clock31.jpg" alt="">
+			<div class="list_text">
+				<h2>Серия ROSE GOLD SERIES</h2>
+				<p class="title_text">Это лучшие часы, которые мы когда-либо разрабатывали. Наряду с Лучшим Продавцом. Эти часы были разработаны и спроектированы для людей, подобных вам. Люди, которые знают качество, всегда на первом месте. И люди, которые не согласятся ни на что меньшее, чем на лучшее. Поэтому не смотрите дальше, поскольку мы представляем Yazole Rose Gold Series Series или Yazole 358 Mod</p>
+			<button><a href="#contact">Заказать часы</a></button>	
+			</div>
+		</div>
+	</article>
+<div class="map" id="contact">
+	<div class="form-in-circle"> 		
+	      		<form action="mail.php" method="POST">
+	      			<div class="form-group">
+            			<div class="form_element">
+      				<label></label>
+      				<input type="text" class="form_name"  name="user_name" placeholder="Name">
+      			</div>
+      		
+      			<div class="form_element">
+      				<label></label>
+      				<input type="text" class="form_name" name="user_email" placeholder="   example@gmail.com">
+      			</div>
+      		
+      			<div class="form_element">
+      				<label></label>
+      				<input type="text" class="form_message" name="user_message" placeholder="Message">
+      			</div>
+      		
+      			<button class="form_button" type="submit">Отправить заявку</button>
+      			</div>
+      		</form>
+	</div>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5386.972265586221!2d30.51255678231957!3d50.44792493454205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce505f2c2b6f%3A0x3c708bc302925049!2z0KLQpiBHbG9idXM!5e0!3m2!1sru!2sua!4v1536277395699" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<footer>
+	<div class="footer_time">
+		<h2>Yazole hq</h2>
+		<p>Адрес: <br>ТЦ Globus <br>Майдан Незалежності, 1, Київ, <br> Київська обл., 02000</p>
+		<br>
+		<p>Пн - Пт, 8:00 - 17:00</p>
+		<p>Суббота, 10:00 - 15:00 </p>
+		<p>Воскресенье, 10:00 - 14:00</p>		
+	</div>
+	
+</footer>
+
+
+</body>
+
+
+ <!-- Placed at the end of the document so the pages load faster -->
+ <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="engine_slider/slider.js"></script>
+	<script type="text/javascript" src="engine_slider/script.js"></script>
+
+
+</html>
